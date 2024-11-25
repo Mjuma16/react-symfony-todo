@@ -11,7 +11,7 @@ function Home() {
   }, [])
 
 
-  // this function willl delete the todo
+  
   const deleteTodo = async (id) => {
     // console.log('deleted id is: ',id);
     const response = await api.delete(`/todo/delete/${id}`)
